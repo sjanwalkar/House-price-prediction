@@ -6,18 +6,17 @@
   - Feature Engineering
   - Outlier Removal
   - Modeling ML
-  - Creating Python Flask Server
-  - Creating Front end UI
+  - Creating Python Flask Server: **house_price.py**
+  - Creating Front end UI: **Index.html**  & For styling : **style.css**
   - Deploying Model
     - Local server
     - Global server
 
 
 
-- Client Folder has UI Application
-- Server folder has the Flask server file
-- model 
+- Index.html file will contain all the input fields that we need in the UI.
+- Style.css file contains various styling like background etc.
 
 
-
+### App UI
 <img width="890" alt="image" src="https://user-images.githubusercontent.com/84242964/163471156-803fbfe0-88e8-4001-b9f9-b8c95e780b56.png">
