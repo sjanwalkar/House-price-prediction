@@ -20,3 +20,6 @@
 
 ### App UI
 <img width="890" alt="image" src="https://user-images.githubusercontent.com/84242964/163471156-803fbfe0-88e8-4001-b9f9-b8c95e780b56.png">
+
+## Heruko Deployment
+<img width="1310" alt="image" src="https://user-images.githubusercontent.com/84242964/163476602-6d02bb2e-1ab7-4699-9fca-3246aed9be97.png">
