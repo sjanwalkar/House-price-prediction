@@ -17,3 +17,7 @@
 - Client Folder has UI Application
 - Server folder has the Flask server file
 - model 
+
+
+
+<img width="890" alt="image" src="https://user-images.githubusercontent.com/84242964/163471156-803fbfe0-88e8-4001-b9f9-b8c95e780b56.png">
