@@ -14,5 +14,6 @@
 
 
 
-- ## Web Scraping Data from Magicbricks.com
- - 
+- Client Folder has UI Application
+- Server folder has the Flask server file
+- model 
