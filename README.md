@@ -23,7 +23,7 @@
 
 ## Running App on Local server
  - Open Terminal, Change the directory to the Application Folder through **cd** command.
- - Type **python run [App Name]**. eg: python run house_price.py
+ - Type **python [App Name]**. eg: python house_price.py
  - Copy paste the URL into browser
  **OR**
  - Open Spyder and Run house_price.py file and copy paste URL into browser.
