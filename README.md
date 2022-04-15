@@ -21,6 +21,13 @@
 ### App UI
 <img width="890" alt="image" src="https://user-images.githubusercontent.com/84242964/163471156-803fbfe0-88e8-4001-b9f9-b8c95e780b56.png">
 
+## Running App on Local server
+ - Open Terminal, Change the directory to the Application Folder through **cd** command.
+ - Type **python run [App Name]**. eg: python run house_price.py
+ - Copy paste the URL into browser
+ **OR**
+ - Open Spyder and Run house_price.py file and copy paste URL into browser.
+
 ## Heruko Deployment
  - Create a **Requirement.txt** file which has all the libraries requirement
  - Create a **Procfile** which has **web: gunicorn house_price**(Flask file name)**:app**(application name in flask file)
