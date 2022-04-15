@@ -24,9 +24,9 @@
 ## Running App on Local server
  - Open Terminal, Change the directory to the Application Folder through **cd** command.
  - Type **python [App Name]**. eg: python house_price.py
- - Copy paste the URL into browser
+ - Copy paste the IP Address into browser
  **OR**
- - Open Spyder and Run house_price.py file and copy paste URL into browser.
+ - Open Spyder and Run house_price.py file and copy paste IP Addr into browser.
 
 ## Heruko Deployment
  - Create a **Requirement.txt** file which has all the libraries requirement
