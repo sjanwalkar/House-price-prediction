@@ -34,4 +34,5 @@
  - Upload all the files in Github.
  - Create App on heruko and link it with your Github & Repository.
  - Select Manual Deployment.
+ - Open the URL in a browser.
 <img width="1310" alt="image" src="https://user-images.githubusercontent.com/84242964/163476602-6d02bb2e-1ab7-4699-9fca-3246aed9be97.png">
