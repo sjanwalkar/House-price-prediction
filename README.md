@@ -53,6 +53,7 @@
     - 2ns Terminal--> Local Terminal (Local server)
       - Set the working Directory where all the files are located(.pem,.py,.pkl etc).
       - To send files into EC2 Instance use SCP command eg. scp -i **'.pem file'** **'file to send'** ubuntu@ec2-13-59-212-30.us-east-2.compute.amazonaws.com:(home directory). 
+      ![image](https://user-images.githubusercontent.com/84242964/163755894-b467aa6c-20d8-4463-ae9f-fc107b215e20.png)
       - To send files to existing folder/directory eg. scp -i **'.pem file'** **'file to send'** ubuntu@ec2-13-59-212-30.us-east-2.compute.amazonaws.com:templates/ (send files to templates folder/directory).
   - Check all the files in Master Terminal using **ls** command.
       
