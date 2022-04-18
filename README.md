@@ -36,3 +36,23 @@
  - Select Manual Deployment.
  - Open the URL in a browser.
 <img width="1310" alt="image" src="https://user-images.githubusercontent.com/84242964/163476602-6d02bb2e-1ab7-4699-9fca-3246aed9be97.png">
+
+## AWS EC2 Deployment
+  - Create EC2 Instane on AWS.
+    - Select Ubuntu free tier server t2-micro.
+    - Create a new key-value-pair(.pem file) and download it.
+    - Create a new Security group with all Type(All traffic) and source (Anywhere).
+    - Add this security group to the EC2 Instance by going into Network Interfaces-->select security group-->change security-->Add new security group.
+    - Get the Public DNS(eg. ec2-13-59-212-30.us-east-2.compute.amazonaws.com) 
+  - Open 2 Terminal shell
+    - 1st Terminal-->Master Terminal(Virtual Machine)
+      - Set the working Directory where all the files are located(.pem,.py,.pkl etc).
+      - Connect this terminal to the EC2 Instance using SSH Command eg. ssh -i MLDeployment.pem ubuntu@ec2-13-59-212-30.us-east-2.compute.amazonaws.com.
+      - connection is established, we will see something like "ubuntu@ip-172-31-17-92: $".
+      - To create folder/derictory USE **mkdir folder name** eg.mkdir static && mkdir static/css ,static-->css.
+    - 2ns Terminal--> Local Terminal (Local server)
+      - Set the working Directory where all the files are located(.pem,.py,.pkl etc).
+      - To send files into EC2 Instance use SCP command eg. scp -i **'.pem file'** **'file to send'** ubuntu@ec2-13-59-212-30.us-east-2.compute.amazonaws.com:(home directory). 
+      - To send files to existing folder/directory eg. scp -i **'.pem file'** **'file to send'** ubuntu@ec2-13-59-212-30.us-east-2.compute.amazonaws.com:templates/ (send files to templates folder/directory).
+  - Check all the files in Master Terminal using **ls** command.
+      
