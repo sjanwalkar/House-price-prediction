@@ -63,4 +63,5 @@
   - Run command **pip3 install -r requirements.txt** in Master Terminal.
   - To Run .py file command **python3 file_name.py**
   - Connect EC2 Instance and run it's URL(DNS) into browser with port(8080) eg.ec2-13-59-212-30.us-east-2.compute.amazonaws.com:8080.
+  <img src="https://user-images.githubusercontent.com/84242964/163756845-28c9d8ac-2f24-4973-92d7-6e43eff1210f.png" width="600" height="500">
       
