@@ -49,7 +49,7 @@
     
   - Open 2 Terminal shell
     - 1st Terminal-->Master Terminal(Virtual Machine)
-      - Set the working Directory where all the files are located(.pem,.py,.pkl etc).
+      - Set the working Directory where all the files are located(.pem,.py,.pkl,.txt etc).
       - Connect this terminal to the EC2 Instance using SSH Command eg. ssh -i MLDeployment.pem ubuntu@ec2-13-59-212-30.us-east-2.compute.amazonaws.com.
       - connection is established, we will see something like "ubuntu@ip-172-31-17-92: $".
       - To create folder/derictory USE **mkdir folder name** eg.mkdir static && mkdir static/css ,static-->css.
@@ -59,4 +59,8 @@
       ![image](https://user-images.githubusercontent.com/84242964/163755894-b467aa6c-20d8-4463-ae9f-fc107b215e20.png)
       - To send files to existing folder/directory eg. scp -i **'.pem file'** **'file to send'** ubuntu@ec2-13-59-212-30.us-east-2.compute.amazonaws.com:templates/ (send files to templates folder/directory).
   - Check all the files in Master Terminal using **ls** command.
+  - Run command **sudo apt-get update && sudo apt-get install python3-pip** in Master terminal to install python3.
+  - Run command **pip3 install -r requirements.txt** in Master Terminal.
+  - To Run .py file command **python3 file_name.py**
+  - Connect EC2 Instance and run it's URL(DNS) into browser with port(8080) eg.ec2-13-59-212-30.us-east-2.compute.amazonaws.com:8080.
       
