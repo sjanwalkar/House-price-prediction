@@ -43,7 +43,10 @@
     - Create a new key-value-pair(.pem file) and download it.
     - Create a new Security group with all Type(All traffic) and source (Anywhere).
     - Add this security group to the EC2 Instance by going into Network Interfaces-->select security group-->change security-->Add new security group.
-    - Get the Public DNS(eg. ec2-13-59-212-30.us-east-2.compute.amazonaws.com) 
+    - Get the Public DNS(eg. ec2-13-59-212-30.us-east-2.compute.amazonaws.com)
+    ![image](https://user-images.githubusercontent.com/84242964/163756196-8a729f83-0c30-4d8f-ba0c-46c8db34100a.png)
+    
+    
   - Open 2 Terminal shell
     - 1st Terminal-->Master Terminal(Virtual Machine)
       - Set the working Directory where all the files are located(.pem,.py,.pkl etc).
