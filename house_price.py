@@ -44,7 +44,7 @@ def predict():
         
     output = round(__model.predict([x])[0],2)
 
-    return render_template('index.html', prediction_text='Estimated prediction of House proce is Rs. {} Lakh'.format(output))
+    return render_template('index.html', prediction_text='Estimated prediction of House price with following specification : Location :{} & SQFT : {} is Rs. {} Lakh'.format(location, total_sqft,output))
 
 
 
